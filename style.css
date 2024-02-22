@@ -207,3 +207,8 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.footer__one p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
