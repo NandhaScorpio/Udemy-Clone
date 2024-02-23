@@ -97,10 +97,36 @@
 .categories p:hover{
     background-color: transparent;
     color: black;
-    border: 1px solid #A435F0;
+    border: 1px solid #a536f0;
     cursor: pointer;
 }
 
+.side-categories-popup{
+    background-color: #1D232C;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 3s;
+    z-index: 1;
+}
+
+.side-categories-link{
+    margin-bottom: 30px;
+}
+
+.side-categories-links p{
+    color: white;
+    text-decoration: none;
+}
+
+.side-categories-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .sale-image img{
     width: 100%;
 }

@@ -48,16 +48,14 @@
 
         </div>
 
-        <div class="navbar__s4">
+        <div class="navbar__s4" onclick="openNavbar()">
             <i class="fa-solid fa-bars"></i>
         </div>
 
 
     </div>
 
-    <div class="navbar__side-popup">
-        
-    </div>
+    
 
     <!--Categories-->
 
@@ -68,6 +66,24 @@
         <p>Personal Development</p>
         <p>Design</p>
         <p>Marketing</p>
+    </div>
+
+    <div class="side-categories-popup">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark" style="color: white; padding-bottom: 10px;"></i>
+        </p>
+        <div class="side-categories-links">
+            <p class="side-categories-link" style="color: orange;">Courses</p>
+            <p class="side-categories-link" style="color: orange;">My Learning</p>
+            <p class="side-categories-lin" style="margin-bottom: 30px;">------------</p>
+            <p class="side-categories-link">Development</a></p>
+            <p class="side-categories-link">Business</a></p>
+            <p class="side-categories-link">IT & Software</a></p>
+            <p class="side-categories-link">Personal Development</p>
+            <p class="side-categories-link">Design</p>
+            <p class="side-categories-link">Marketing</p>
+            <p class="side-categories-lin">------------</a></p>
+        </div>
     </div>
 
     <!--Sale Image-->
@@ -243,6 +259,7 @@
             <p>&copy; Udemy, Inc</p>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
